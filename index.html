@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./scss/style.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -98,8 +98,9 @@
         <p class="card-text text">Employment</p>
 <!-- FOUNDER SECTION -->
         <div class="founder-sec card">
-                <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Founder</span>
+                <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+                <div class="content">
+                <span class="founder-text text">Founder</span>
                 <p class="founder-timeline timeline">Brutalism | 2015 - PRESENT</p>
                     <ul class="founder-list list">
                         <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
@@ -107,12 +108,14 @@
                         <li>Approached visualization in a more innate and sensory-driven fashionhigher bandwidth and lower precision.</li>
                     </ul>
                     <p class="founder-skills skills">Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</p>
+                </div>
             </div>
         </div>
 <!-- AR SECTION -->
         <div class="augmented-reality-developer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Augmented Reality Developer</span>
+                <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+                <div class="container">
+                <span class="founder-text text">Augmented Reality Developer</span>
                 <p class="augmented-reality-timeline timeline">Nelu, LLC | 2018 - 2019</p>
                 <ul class="augmented-reality-list list">
                     <li>Developed a computer vision algorithm which automatically detects real-world dimensions of a box recorded by the device's camera.</li>
@@ -120,11 +123,13 @@
                     <li>Ensured all AR applications are running smoothly on both iOS and Android.</li>
                 </ul>
                 <p class="augmented-reality-skills skills">Technologies: Unity, Augmented Reality (AR), iOS, Android, Location-aware Technology, Location Services, Photogrammetry, ARKit, ARCore, Computer Vision, OpenCV</p>
+            </div>
         </div>
 <!-- CG SECTION -->
         <div class="computational-geometry-engineer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Computational Geometry Engineer</span>
+            <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+            <div class="container">
+                <span class="founder-text text">Computational Geometry Engineer</span>
                 <p class="computational-geometry-engineer-timeline timeline">Arkio | 2020 - 2021</p>
                 <ul class="computational-geometry-engineer-list list">
                     <li>Worked on the core engine supporting Arkio's computational geometry operations in VR.</li>
@@ -132,11 +137,13 @@
                     <li>Worked on designing and implementing user-facing solid geometry manipulation controls.</li>
                 </ul>
                 <p class="computational-geometry-engineer-skills skills">Technologies: Unity3D, Virtual Reality (VR), Oculus, Oculus Rift, HTC Vive, Computational Geometry, Geometry, C#, Unity, Architecture, 3D Architecture</p>
+            </div>
         </div>
 <!-- ARE SECTION -->
         <div class="augmented-reality-engineer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Augmented Reality Engineer</span>
+            <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+            <div class="container">
+                <span class="founder-text text">Augmented Reality Engineer</span>
                 <p class="augmented-reality-engineer-timeline timeline">Infiniverse | 2018 - 2019</p>
                 <ul class="augmented-reality-engineer-list list">
                     <li>Created an augmented reality application for iOS, which helps a Spanish construction company measure and model staircase-attached chair elevators for disabled persons.</li>
@@ -145,11 +152,13 @@
                 </ul>
                 <p class="augmented-reality-engineer-skills skills">Technologies: Swift, ARKit, Augmented Reality (AR), iOS, Computer Vision, OpenCV, Construction, Home Construction</p>
             </div>
+            </div>
         </div>
 <!-- ARE SECTION -->
         <div class="augmented-reality-engineer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Augmented Reality Engineer</span>
+                <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+                <div class="container">
+                <span class="founder-text text">Augmented Reality Engineer</span>
                 <p class="augmented-reality-engineer-timeline timeline">La Siesta Technologies | 2017 - 2018</p>
                 <ul class="augmented-reality-engineer-list list">
                     <li>Built parts of an augmented reality content creation platform and marketplace running on the blockchain.</li>
@@ -158,11 +167,13 @@
                 </ul>
                 <p class="augmented-reality-engineer-skills skills">Technologies: ARKit, Unity3D, Unity, ARCore, iOS, Android, C#, Augmented Reality (AR), Location Services, Location-aware Technology</p>
             </div>
+            </div>
         </div>
 <!-- SUD SECTION -->
         <div class="senior-unity-developer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Senior Unity Developer</span>
+            <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+            <div class="container">
+                <span class="founder-text text">Senior Unity Developer</span>
                 <p class="senior-unity-developer-timeline timeline">Senior Unity Developer | 2017 - 2018</p>
                 <ul class="senior-unity-developer-list list">
                     <li>Worked on interactive on-site installations for the Royal Alberta Museum and the National Comedy Center.</li>
@@ -171,98 +182,34 @@
                 </ul>
                 <p class="senior-unity-developer-skills skills">Technologies: Unity3D, Unity, C#, Touchscreens, Installation, Digital Installation, Museums & Exhibits, Shaders, Unity Shaders</p>
             </div>
+            </div>
         </div>
 <!-- SID SECTION -->
         <div class="senior-ios-developer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Senior iOS Developer</span>
+            <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+            <div class="container">
+                <span class="founder-text text">Senior iOS Developer</span>
                 <p class="senior-unity-developer-timeline timeline">Apple | 2016 - 2017</p>
                 <ul class="senior-unity-developer-list list">
                     <li>Created and shipped an internal (employee only) iOS application for Apple.</li>
                 </ul>
                 <p class="senior-unity-developer-skills skills">Technologies: iOS, Swift</p>
+                </div>
             </div>
         </div>
 <!-- SIDE SECTION -->
         <div class="senior-ios-developer/engineer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Senior iOS Developer/Engineer</span>
+            <div class="list-icon-box"><img src="./assets/list-icon.svg" alt=""></div>
+                <div class="container">
+                <span class="founder-text text">Senior iOS Developer/Engineer</span>
                 <p class="senior-ios-developer/engineer-timeline timeline">Work & Co | 2015 - 2016</p>
                 <ul class="senior-ios-developer/engineer-list list">
                     <li>Worked on the Virgin America iOS application.</li>
                 </ul>
                 <p class="senior-ios-developer/engineer-skills skills">Technologies: Lua, Swift, iOS</p>
+                </div>
             </div>
         </div>
-<!-- LIU SECTION -->
-        <div class="lead-ios-Unity card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">
-                    &nbsp;Lead iOS, Unity, and Back-end Developer</span>
-                <p class="senior-ios-developer/engineer-timeline timeline">Nordeus | 2011 - 2015</p>
-                <ul class="senior-ios-developer/engineer-list list">
-                    <li>Led iOS development on Top Eleven for iOS for one and a half years.</li>
-                    <li>Led the Unity development team on various in-house prototype projects for three years.</li>
-                    <li>Contributed to UX design, low-level network code, and experimental game servers.</li>
-                </ul>
-                <p class="senior-ios-developer/engineer-skills skills">Technologies: Scala, Java, C#, Unity, Objective-C, iOS</p>
-            </div>
-        </div>
-<!-- LID SECTION -->
-        <div class="lead-ios-developer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Lead iOS Developer</span>
-                <p class="lead-ios-developer-timeline timeline">NextWidgets | 2010 - 2011</p>
-                <ul class="lead-ios-developer-list list">
-                    <li>Built the NextWidgets iOS shopping widget, which enabled clients to embed micro shops inside of their own iOS apps.</li>
-                </ul>
-                <p class="lead-ios-developer-skills skills">Technologies: Git, Xcode, Objective-C</p>
-            </div>
-        </div>
-<!-- IBD SECTION -->
-<div class="ios-and-back-end-developer card">
-    <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-        <span class="founder-text text">&nbsp;iOS and Back-end Developer</span>
-        <p class="ios-and-back-end-developer-timeline timeline">M2E Consulting | 2009 - 2010</p>
-        <ul class="ios-and-back-end-developer-list list">
-            <li>Developed a suite of prototype apps and web services for making inspection and monitoring easier for construction industry clients.</li>
-        </ul>
-        <p class="ios-and-back-end-developer-skills skills">Technologies: Subversion (SVN), Mercurial, Apache, PHP, Xcode, Objective-C</p>
-    </div>
-</div>
-<!-- SE SECTION -->
-        <div class="software-engineer card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Software Engineer</span>
-                <p class="software-engineer-timeline timeline">Google Summer of Code | Nmap | 2008 - 2008</p>
-                <ul class="software-engineer-list list">
-                    <li>Designed and implemented the network mapping mode for Zenmap, a dynamic visual representation of the scanned network.</li>
-                </ul>
-                <p class="software-engineer-skills skills">Technologies: GTK+, Subversion (SVN), Eclipse, Python</p>
-            </div>
-        </div>
-<!-- SD SECTION -->
-        <div class="software-developer-1 card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Software Developer</span>
-                <p class="software-developer-1-timeline timeline">FIS | 2007 - 2008</p>
-                <ul class="software-developer-1-list list">
-                    <li>Debugged business logic code and fixed database issues on Sybase and Oracle database platforms.</li>
-                </ul>
-                <p class="software-developer-1-skills skills">Technologies: SQL, GDB, GCC, C</p>
-            </div>
-        </div>
-<!-- SD SECTION -->
-        <div class="software-developer-2 card">
-            <span><img src="./assets/list-icon.svg" alt="path image icon" class="path-img-icon"><span>
-                <span class="founder-text text">&nbsp;Software Developer</span>
-                <p class="software-developer-2-timeline timeline">Google Summer of Code | OpenMRS | 2007 - 2007</p>
-                <ul class="software-developer-2-list list">
-                    <li>Designed and implemented the core logic service architecture that allowed medical staff to make rule-based queries to the database in a human-friendly way.</li>
-                </ul>
-                <p class="software-developer-2-skills skills">Technologies: Apache Tomcat, Subversion (SVN), Eclipse, MySQL, Hibernate, JSP, Java</p>
-            </div>
-        </div>       
     </article>
 <!------------------------EXPERIENCE ARTICLE------------------------------>
 <article class="experience">
@@ -271,7 +218,8 @@
         <div class="aesthetic-engine-2 card">
             <div class="aesthetic-engine-2-content content">
                 <p class="aesthetic-engine-2-text text text2">Aesthetic Engine 2</p>
-                <a href="http://brutalism.rs/project/aesthetic-engine-2/">http://brutalism.rs/project/aesthetic-engine-2/</a>
+                <div class="container-2">
+                <a href="http://brutalism.rs/project/aesthetic-engine-2/">http://brutalism.rs/project/aesthetic-engine-2/</a></div>
                 <p class="aesthetic-engine-2-p1 p">Aesthetic Engine 2 is simultaneously a web browser, a generative data sculpture, and a shape-shifting painting. It visualizes the hidden complexity behind our everyday web browsing.</p>
                 <p class="aesthetic-engine-2-p2 p">Each web page is rendered using predefined rules for different groups of HTML tags. The content, which is visible to users in conventional web browsers (paragraphs, images, etc.), is rendered using the thickest shapes. Scaffolding around visible content—all of the “invisible” internal stuff—is rendered using thinner strands escaping from the middle of the structure. JavaScript code, CSS files, and all other externally loaded resources are rendered as twisting lines wrapping themselves around the structure. Lastly, the web pages code is scraped for all outgoing links (URLs) and each of them is rendered as a long line escaping from the structure outward, therefore visualizing the “connectedness” of the page.
                     Virgin America iOS Application.</p>
@@ -302,7 +250,7 @@
         <div class="objectivemixin card">
             <div class="objectivemixin-content content">
                 <p class="objectivemixin-text text text2">ObjectiveMixin</p>
-                <a href="https://github.com/vl4dimir/ObjectiveMixin">https://github.com/vl4dimir/ObjectiveMixin</a>
+                <div class="container-2"><a href="https://github.com/vl4dimir/ObjectiveMixin">https://github.com/vl4dimir/ObjectiveMixin</a></div>
                 <p class="objectivemixin-p p">ObjectiveMixin is a popular open-source library that I wrote for iOS. It gives Ruby-like mixin functionality to Objective-C programs.</p>
             </div>
         </div>
@@ -310,16 +258,9 @@
         <div class="spomenik card">
             <div class="spomenik-content content">
                 <p class="spomenik-text text text2">Spomenik</p>
-                <a href="http://brutalism.rs/project/spomenik/">http://brutalism.rs/project/spomenik/</a>
+                <div class="container-2">
+                <a href="http://brutalism.rs/project/spomenik/">http://brutalism.rs/project/spomenik/</a></div>
                 <p class="objectivemixin-p p">Spomenik is a turn-based city-builder game in which you build a city on multiple levels: in reality, and in its inhabitants dreams. I'm making this game independently.</p>
-            </div>
-        </div>
-<!-- Medjed SECTION -->
-        <div class="medjed card">
-            <div class="medjed-content content">
-                <p class="medjed-text text text2">Medjed</p>
-                <a href="http://brutalism.rs/project/medjed/">http://brutalism.rs/project/medjed/</a>
-                <p class="medjed-p p">A procedural terrain generator project I worked on in my spare time. It uses volumetric density functions and vector fields to generate the terrain, using no premodeled geometry.</p>
             </div>
         </div>
 <!-- Hero of Allacrost SECTION -->
@@ -328,23 +269,7 @@
                 <p class="hero-of-allacrostk-text text text2">Hero of Allacrost</p>
                 <p class="hero-of-allacrostk-p p">Spomenik is a turn-based city-builder game in which you build a city on multiple levels: in reality, and in its inhabitants dreams. I'm making this game independently.</p>
             </div>
-        </div>
-<!-- Unwelcome Gaze SECTION -->
-        <div class="unwelcome-gaze card">
-            <div class="unwelcome-gaze-content content">
-                <p class="unwelcome-gaze-text text text2">Unwelcome Gaze</p>
-                <a href="http://brutalism.rs/project/unwelcome-gaze/">http://brutalism.rs/project/unwelcome-gaze/</a>
-                <p class="unwelcome-gaze-p p">Unwelcome Gaze is a triptych visualizing the publicly reachable web server infrastructure of these companies and the routing graph(s) leading to them. Over many weeks of meticulous network reconnaissance, the routing information has been gathered and persisted locally. From it, a routing graph was reconstructed for each of the three networks. Each graph was then visualized as a generative three-dimensional sculpture, constantly shifting its appearance  just like the data it portrays.</p>
-            </div>
-        </div>
-<!-- Itinerant SECTION -->
-        <div class="itinerant card">
-            <div class="itinerant-content content">
-                <p class="itinerant-text text text2">Itinerant</p>
-                <a href="http://brutalism.rs/project/itinerant/">http://brutalism.rs/project/itinerant/</a>
-                <p class="itinerant-p p">Itinerant is an experimental weather forecast app, utilizing the human visual perception system (i.e. recognizing shapes and colors) instead of the symbolic interpretation system (i.e. reading words and numbers). It is an experiment in outperforming traditional weather information data displays in terms of how long it takes to parse and understand the information. Even more importantly, it is an experiment in helping to change the nature of that understanding.</p>
-            </div>
-        </div>
+        </div>          
     </article>
 <!------------------------SKILL ARTICLE------------------------------>
     <article class="skills-article">
@@ -428,9 +353,9 @@
     <footer class="end-footer">
         <div class="logo-footer">
             <div class="p-1"><a href="#" target="_blank"><img src="./assets/logo.svg" alt="website logo" class="website-logo-footer"></a></div>
-        <span class="developer-text-footer">Developers &nbsp;&nbsp;|&nbsp;&nbsp;</span>
+        <span class="developer-text-footer">Developers &nbsp;&nbsp;</span>
         <div class="p-2">
-            <p>Hire the top 3% of freelance developers</p>
+            <p>|&nbsp;&nbsp;Hire the top 3% of freelance developers</p>
         </div>
         </div>
         
